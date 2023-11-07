@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import socketIO from 'socket.io-client';
 import axios from "axios";
 
- const socket = socketIO.connect('http://localhost:3001');
+ const socket = socketIO.connect("https://dbi-api-dev.onrender.com/");
 
 function App() {
   const [status, setStatus] = useState({});

@@ -24,8 +24,8 @@ app.use(bodyParser.json());
 
 const io = require("socket.io")(http, {
   cors: {
-    origin: "http://localhost:3002",
-  }
+    origin: "https://dowhyqrac.com/",
+  },
 });
 
 io.on('connection', (socket) => {
