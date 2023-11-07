@@ -24,7 +24,7 @@ app.use(bodyParser.json());
 
 const io = require("socket.io")(http, {
   cors: {
-    origin: "https://dowhyqrac.com/",
+    origin: "*",
   },
 });
 
